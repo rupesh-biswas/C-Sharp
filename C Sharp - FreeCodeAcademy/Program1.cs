@@ -4,8 +4,9 @@
     {
         static void Main(string[] args)
         {
-            string phrase = "Giraffe Academy";
-            Console.WriteLine(phrase.IndexOf("Academy") );
+            int num = 6;
+            num--;
+            Console.WriteLine( num );
 
             Console.ReadLine();
         }
