@@ -9,7 +9,7 @@
             characterAge = 35;
 
             Console.WriteLine("There once a man named " + characterName);
-            Console.WriteLine("He was 70 years old");
+            Console.WriteLine("He was " + characterAge  + " years old");
             Console.WriteLine("He really liked the name " + characterName);
             Console.WriteLine("But didn't like being " + characterAge);
 
