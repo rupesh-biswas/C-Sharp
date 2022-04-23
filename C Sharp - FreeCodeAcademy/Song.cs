@@ -20,5 +20,10 @@ namespace C_Sharp___FreeCodeAcademy
             duration = aDuration;
             songCount++;
         }
+
+        public int getSongCount()
+        {
+            return songCount;
+        }
     }
 }
