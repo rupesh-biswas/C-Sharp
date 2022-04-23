@@ -4,12 +4,11 @@
     {
         static void Main(string[] args)
         {
-             Student student1 = new Student("Jim", "Business", 2.8);
-            Student student2 = new Student("Pam", "Art", 3.6);
-
-            Console.WriteLine(student1.HasHonors());
-            Console.WriteLine(student2.HasHonors());
-
+            Movie avengers = new Movie("The Avengers", "Joss Whedon", "Dog");
+            Movie shrek = new Movie("Shrek", "Adam Adamson", "PG");
+            // G, PG, PG-13, R, NR
+            shrek.Rating = "PG-13";
+            Console.WriteLine(shrek.Rating);
             Console.ReadLine();
         }
     }

@@ -21,7 +21,7 @@ namespace C_Sharp___FreeCodeAcademy
 
         public bool HasHonors()
         {
-            if(gpa > 3.5)
+            if(gpa > 2.5)
             {
                 return true;
             }
