@@ -1,56 +1,22 @@
-﻿namespace Giraffe
+﻿namespace C_Sharp___FreeCodeAcademy
 {
     class Program1
     {
         static void Main(string[] args)
         {
-            Console.Write("Enter a day Number: ");
-            int num = Convert.ToInt32(Console.ReadLine());
+             Book book1 = new Book();
+            book1.title = "Harry Potter";
+            book1.author = "JK Rowling";
+            book1.pages = 400;
 
-            Console.WriteLine(GetDay(num));
+             Book book2 = new Book();
+            book2.title = "Lord of the Rings";
+            book2.author = "Tolkein";
+            book2.pages = 700;
+
+            Console.WriteLine(book2.author);
+
             Console.ReadLine();
         }
-
-        static string GetDay(int dayNum)
-        {
-            string dayName;
-
-            switch(dayNum)
-            {
-                case 0: 
-                    dayName = "Sunday";
-                    break;
-
-                case 1:
-                    dayName = "Monday";
-                    break;
-
-                case 2:
-                    dayName = "Tuesday";
-                    break;
-
-                case 3:
-                    dayName = "Wednesday";
-                    break;
-
-                case 4:
-                    dayName = "Thursday";
-                    break;
-
-                case 5:
-                    dayName = "Friday";
-                    break;
-
-                case 6:
-                    dayName = "Saturday";
-                    break;
-
-                default:
-                    dayName = "Invalid Input";
-                    break;
-            }
-
-            return dayName;        }
-
     }
 }
