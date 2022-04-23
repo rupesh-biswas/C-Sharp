@@ -4,17 +4,11 @@
     {
         static void Main(string[] args)
         {
-             Book book1 = new Book();
-            book1.title = "Harry Potter";
-            book1.author = "JK Rowling";
-            book1.pages = 400;
+             Student student1 = new Student("Jim", "Business", 2.8);
+            Student student2 = new Student("Pam", "Art", 3.6);
 
-             Book book2 = new Book();
-            book2.title = "Lord of the Rings";
-            book2.author = "Tolkein";
-            book2.pages = 700;
-
-            Console.WriteLine(book2.author);
+            Console.WriteLine(student1.HasHonors());
+            Console.WriteLine(student2.HasHonors());
 
             Console.ReadLine();
         }
